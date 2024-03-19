@@ -54,21 +54,28 @@ label.title{
 }
 .content2 {
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%; 
     position: relative;
     z-index: 0;
-    max-width: 50vw;
+    max-width: 60vw;
     margin: 0 auto;
     padding: 50px;
+    font-size: 21px;
 }
 .content3 {
     text-align: center;
-    padding-top: 4%;
+    padding-bottom: 1%; 
+    position: relative;
+    z-index: 0;
+    max-width: 80vw;
+    margin: 0 auto;
+    font-size: 65px;
+}
+.content4 {
+    text-align: center;
     padding-bottom: 2%; 
     position: relative;
     z-index: 0;
-    max-width: 50vw;
+    max-width: 60vw;
     margin: 0 auto;
     font-size: 35px;
 }
@@ -279,10 +286,5 @@ a.active, a:hover{
     .text-content{
         max-width: 100%;
         font-size: 2vw;
-    }
-}
-@media (max-width: 1705px){
-    .container {
-        justify-content: center;
     }
 }
